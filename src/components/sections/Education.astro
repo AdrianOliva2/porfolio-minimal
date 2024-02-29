@@ -1,6 +1,133 @@
 ---
 import Section from "@/components/Section.astro";
+
+import { education } from "@cv";
 ---
 
-<Section title="Education">
+<Section title="Educacion">
+  <ul>
+    {
+      education.map(
+        ({
+          institution,
+          url,
+          area,
+          studyType,
+          startDate,
+          endDate,
+          score,
+          courses,
+        }) => {
+          const months = [
+            "Enero",
+            "Febrero",
+            "Marzo",
+            "Abril",
+            "Mayo",
+            "Junio",
+            "Julio",
+            "Agosto",
+            "Septiembre",
+            "Octubre",
+            "Noviembre",
+            "Diciembre",
+          ];
+          const startDateObj = new Date(startDate);
+          const startYear = startDateObj.getFullYear();
+          const startMonth = startDateObj.getMonth();
+          const endDateObj = endDate ? new Date(endDate) : null;
+          const endYear = endDateObj ? endDateObj.getFullYear() : "Actualmente";
+          const endMonth = endDateObj ? endDateObj.getMonth() : "";
+          const period = `${months[startMonth]} ${startYear} - ${endMonth ? months[endMonth] : ""} ${endYear}`;
+          const description = `${studyType} de ${area} con un promedio de ${score}`;
+
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    <a href={url} target="_blank" rel="noopener norreferer">
+                      <h3>{institution}</h3>
+                    </a>
+                    <h4>{description}</h4>
+                  </div>
+
+                  <time>{period}</time>
+                </header>
+                <footer>
+                  {courses.map((course) => (
+                      <span>{course}</span>
+                  ))}
+                </footer>
+              </article>
+            </li>
+          );
+        }
+      )
+    }
+  </ul>
 </Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article a {
+    font-weight: 500;
+    color: #111;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  article h3 {
+    font-size: 1rem;
+  }
+
+  article h4 {
+    font-weight: 400;
+    color: #222;
+    margin: 5px 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    width: 100%;
+    text-align: right;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+
+  footer span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+    display: inline-flex;
+  }
+
+  @media print {
+    article a:hover {
+      text-decoration: none;
+    }
+  }
+</style>

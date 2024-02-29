@@ -8,7 +8,7 @@ import { work } from "@cv";
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, url, highlights }) => {
+        ({ name, startDate, endDate, position, summary, url }) => {
           const months = [
             "Enero",
             "Febrero",
@@ -35,7 +35,7 @@ import { work } from "@cv";
               <article>
                 <header>
                   <div>
-                    <h3>{name}</h3>
+                    <a href={url} target="_blank" rel="noopener norreferer"><h3>{name}</h3></a>
                     <h4>{position}</h4>
                   </div>
 
@@ -60,9 +60,17 @@ import { work } from "@cv";
     gap: 32px;
   }
 
-  article h3 {
+  article a {
     font-weight: 500;
     color: #111;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  article h3 {
+    font-size: 1rem;
   }
 
   article h4 {
@@ -81,5 +89,13 @@ import { work } from "@cv";
   time {
     color: #555;
     font-size: 0.85rem;
+    width: 100%;
+    text-align: right;
+  }
+
+  @media print {
+    article a:hover {
+      text-decoration: none;
+    }
   }
 </style>
