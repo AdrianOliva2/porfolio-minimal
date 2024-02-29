@@ -1,0 +1,349 @@
+{
+  "basics": {
+    "name": "Adrián Oliva Del Río",
+    "label": "Desarrollador Full Stack y de aplicaciones multiplataforma con 3 meses de experiencia",
+    "image": "/me.webp",
+    "email": "adrian230902@hotmail.com",
+    "phone": "+34 678345268",
+    "url": "https://porfolio-adrian-oliva.netlify.app/",
+    "summary": "3 meses de experiencia. Desarrollador Web y Aplicaciones Multiplataforma. De Cádiz, España.",
+    "location": {
+      "address": "Calle Plaza Alta, B3 5ºA",
+      "postalCode": "11300",
+      "city": "La Línea de la concepción",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "AdrianOliva2",
+        "url": "https://github.com/AdrianOliva2"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Adrián Oliva Del Río",
+        "url": "https://www.linkedin.com/in/adri%C3%A1n-oliva-del-r%C3%ADo-952038223/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "ControlNet Telco Solutions",
+      "position": "Desarrollador Full Stack y Aplicaciones Multiplataforma",
+      "url": "https://controlnet.es/",
+      "startDate": "2023-03-01",
+      "endDate": "2023-06-22",
+      "summary": "Desarrollo de aplicaciones en una consultoría informática. Utilizando lenguajes como: C#, VisualBasic, JavaScript, Aspx y CSS.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "IES Almunia",
+      "url": "https://blogsaverroes.juntadeandalucia.es/iesalmunia/",
+      "area": "Desarrollador de Aplicaciones Multiplataforma",
+      "studyType": "Ciclo Formativo de Grado Superior",
+      "startDate": "2021-09-15",
+      "endDate": "2023-06-22",
+      "score": "8.0",
+      "courses": [
+        "C#",
+        "HTTPS",
+        ".NET Framework",
+        "SQLite",
+        "Hojas de estilos en cascada (CSS)",
+        "Node.js",
+        "Angular Material",
+        "Git",
+        "Bootstrap",
+        "Visual Basic .NET (NET)",
+        "Apache",
+        "MySQL",
+        "GitHub",
+        "Desarrollo web back end",
+        "SQL",
+        "Angular CLI",
+        "Microsoft SQL Server",
+        "Desarrollo Full Stack",
+        "Python",
+        "Java",
+        "Arquitectura Java para enlace XML",
+        "Angular",
+        "JavaScript",
+        "Programación orientada a objetos (POO)"
+      ]
+    },
+    {
+      "institution": "IES Mediterráneo",
+      "url": "https://iesmediterraneo.net/",
+      "area": "Técnico en Sistemas Microinformáticos y Redes",
+      "studyType": "Ciclo Formativo de Grado Medio",
+      "startDate": "2020-09-15",
+      "endDate": "2021-06-22",
+      "score": "9.0",
+      "courses": [
+        "Redes",
+        "Sistemas operativos",
+        "Montaje y mantenimiento de equipos",
+        "Aplicaciones ofimáticas",
+        "Sistemas operativos monopuesto",
+        "Aplicaciones web",
+        "HTML",
+        "CSS",
+        "SQL",
+        "Internet de las cosas (IoT)"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo", "Aplicaciones", "Programación", "Android"
+      ]
+    },
+    {
+      "name": "C#",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo", "Aplicaciones", "Programación"
+      ]
+    },
+    {
+      "name": "Visual Basic .NET",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo", "Aplicaciones", "Programación"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo", "Aplicaciones", "Programación"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Framework", "UI"
+      ]
+    },
+    {
+      "name": "Kotlin",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo", "Aplicaciones", "Programación", "Android"
+      ]
+    },
+    {
+      "name": "Express",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "NoSQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "SQLite",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Angular CLI",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Framework", "UI"
+      ]
+    },
+    {
+      "name": "Angular Material",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Framework", "UI"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Lengua materna"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Intermedio"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Porfolio-Adrian-Minimal",
+      "isActive": "true",
+      "startDate": "2024-02-28",
+      "endDate": "2024-02-29",
+      "description": "Este es mi porfolio personal simple creado usando el framework Astro, junto con HTML, CSS, JavaScript, JSON, y JSX.",
+      "highlights": ["Astro", "HTML", "CSS", "JavaScript", "JSON", "JSX", "Netlify", "Porfolio"],
+      "url": "https://google.es/"
+    },
+    {
+      "name": "Porfolio-Adrian",
+      "isActive": "true",
+      "startDate": "2024-02-24",
+      "endDate": "2024-02-26",
+      "description": "Este es mi porfolio personal creado usando el framework Astro y TailwindCSS, junto con HTML, CSS, JavaScript, y JSX.",
+      "highlights": ["Astro", "TailwindCSS", "HTML", "CSS", "JavaScript", "JSX", "Netlify", "Porfolio"],
+      "url": "https://porfolio-adrian-oliva.netlify.app/"
+    },
+    {
+      "name": "PerWorldWarps",
+      "isActive": "true",
+      "startDate": "2023-11-01",
+      "endDate": "2023-11-11",
+      "description": "Este es un plugin para servidores de Minecraft Paper, que permite a los jugadores crear y gestionar sus diferentes warps en distintos mundos.",
+      "highlights": ["Java", "Kotlin", "Minecraft", "PaperMC", "Spigot", "Plugin", "API", "PerWorldWarps"],
+      "url": "https://github.com/AdrianOliva2/PerWorldWarps/releases/latest"
+    }
+  ]
+}
