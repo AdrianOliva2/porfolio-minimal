@@ -325,7 +325,7 @@
       "endDate": "2024-02-29",
       "description": "Este es mi porfolio personal simple creado usando el framework Astro, junto con HTML, CSS, JavaScript, JSON, y JSX.",
       "highlights": ["Astro", "HTML", "CSS", "JavaScript", "JSON", "JSX", "Netlify", "Porfolio"],
-      "url": "/"
+      "url": ""
     },
     {
       "name": "Porfolio-Adrian",

@@ -12,14 +12,19 @@ import { projects } from "@cv";
           <article>
             <header>
               <h3>
-                <a href={url} target="_blank" rel="noopener norreferer" title={`Ver el proyecto ${name}`}>
-                  {name}
-                </a>
-                {
-                  isActive && (
-                    <span>•</span>
-                  )
-                }
+                {url ? (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener norreferer"
+                    title={`Ver el proyecto ${name}`}
+                  >
+                    {name}
+                  </a>
+                ) : (
+                  <span>{name}</span>
+                )}
+                {isActive && <span class="active">•</span>}
               </h3>
               <p>{description}</p>
             </header>
@@ -75,6 +80,10 @@ import { projects } from "@cv";
   }
 
   article h3 span {
+    color: #111;
+  }
+
+  article h3 span.active {
     color: #00ab06;
   }
 
