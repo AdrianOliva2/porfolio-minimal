@@ -35,7 +35,9 @@
       "startDate": "2023-03-01",
       "endDate": "2023-06-22",
       "summary": "Desarrollo de aplicaciones en una consultoría informática. Utilizando lenguajes como: C#, VisualBasic, JavaScript, Aspx y CSS.",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     }
   ],
   "volunteer": [
@@ -46,7 +48,9 @@
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
     }
   ],
   "education": [
@@ -137,161 +141,221 @@
       "name": "Java",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo", "Aplicaciones", "Programación", "Android"
+        "Desarrollo",
+        "Aplicaciones",
+        "Programación",
+        "Android"
       ]
     },
     {
       "name": "C#",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo", "Aplicaciones", "Programación"
+        "Desarrollo",
+        "Aplicaciones",
+        "Programación"
       ]
     },
     {
       "name": "Visual Basic .NET",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo", "Aplicaciones", "Programación"
+        "Desarrollo",
+        "Aplicaciones",
+        "Programación"
       ]
     },
     {
       "name": "Python",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo", "Aplicaciones", "Programación"
+        "Desarrollo",
+        "Aplicaciones",
+        "Programación"
       ]
     },
     {
       "name": "Angular",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Framework", "UI"
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Framework",
+        "UI"
       ]
     },
     {
       "name": "Kotlin",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo", "Aplicaciones", "Programación", "Android"
+        "Desarrollo",
+        "Aplicaciones",
+        "Programación",
+        "Android"
       ]
     },
     {
       "name": "Express",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
       ]
     },
     {
       "name": "MongoDB",
       "level": "Avanzado",
       "keywords": [
-        "Bases de Datos", "NoSQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "NoSQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "SQLite",
       "level": "Avanzado",
       "keywords": [
-        "Bases de Datos", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Microsoft SQL Server",
       "level": "Avanzado",
       "keywords": [
-        "Bases de Datos", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Angular CLI",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Framework", "UI"
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Framework",
+        "UI"
       ]
     },
     {
       "name": "Angular Material",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Framework", "UI"
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Framework",
+        "UI"
       ]
     },
     {
       "name": "Bootstrap",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "HTML",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend"
+        "Desarrollo Web",
+        "Frontend"
       ]
     },
     {
       "name": "CSS",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "JavaScript",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
       ]
     },
     {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "TypeScript",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
       ]
     },
     {
       "name": "MySQL",
       "level": "Avanzado",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
       ]
     },
     {
       "name": "GitHub",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
       "name": "React",
       "level": "Intermedio",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
       ]
     }
   ],
@@ -308,7 +372,10 @@
   "interests": [
     {
       "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
     }
   ],
   "references": [
@@ -324,7 +391,16 @@
       "startDate": "2024-02-28",
       "endDate": "2024-02-29",
       "description": "Este es mi porfolio personal simple creado usando el framework Astro, junto con HTML, CSS, JavaScript, JSON, y JSX.",
-      "highlights": ["Astro", "HTML", "CSS", "JavaScript", "JSON", "JSX", "Netlify", "Porfolio"],
+      "highlights": [
+        "Astro",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JSON",
+        "JSX",
+        "Netlify",
+        "Porfolio"
+      ],
       "url": ""
     },
     {
@@ -333,7 +409,16 @@
       "startDate": "2024-02-24",
       "endDate": "2024-02-26",
       "description": "Este es mi porfolio personal creado usando el framework Astro y TailwindCSS, junto con HTML, CSS, JavaScript, y JSX.",
-      "highlights": ["Astro", "TailwindCSS", "HTML", "CSS", "JavaScript", "JSX", "Netlify", "Porfolio"],
+      "highlights": [
+        "Astro",
+        "TailwindCSS",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JSX",
+        "Netlify",
+        "Porfolio"
+      ],
       "url": "https://porfolio-adrian-oliva.netlify.app/"
     },
     {
@@ -342,8 +427,32 @@
       "startDate": "2023-11-01",
       "endDate": "2023-11-11",
       "description": "Este es un plugin para servidores de Minecraft Paper, que permite a los jugadores crear y gestionar sus diferentes warps en distintos mundos.",
-      "highlights": ["Java", "Kotlin", "Minecraft", "PaperMC", "Spigot", "Plugin", "API", "PerWorldWarps"],
+      "highlights": [
+        "Java",
+        "Kotlin",
+        "Minecraft",
+        "PaperMC",
+        "Spigot",
+        "Plugin",
+        "API",
+        "PerWorldWarps"
+      ],
       "url": "https://github.com/AdrianOliva2/PerWorldWarps/releases/latest"
+    },
+    {
+      "name": "Curso de React",
+      "isActive": "true",
+      "startDate": "2023-11-29",
+      "endDate": "2024-03-06",
+      "description": "Este es un curso de React que he hecho para aprender React y están todos los proyectos de react que he hecho en este mismo repositorio.",
+      "highlights": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "url": "https://github.com/AdrianOliva2/Curso-React"
     }
   ]
 }
