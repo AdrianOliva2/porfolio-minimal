@@ -386,6 +386,24 @@
   ],
   "projects": [
     {
+      "name": "PerWorldChatReborn",
+      "isActive": "true",
+      "startDate": "2024-03-14",
+      "endDate": "2024-03-15",
+      "description": "Este es un plugin para servidores de Minecraft Paper, que permite tener diferentes chats a los usuarios separados por mundos.",
+      "highlights": [
+        "Java",
+        "Kotlin",
+        "Minecraft",
+        "PaperMC",
+        "Spigot",
+        "Plugin",
+        "API",
+        "PerWorldChatReborn"
+      ],
+      "url": "https://github.com/AdrianOliva2/PerWorldChatReborn/releases/latest"
+    },
+    {
       "name": "Porfolio-Adrian-Minimal",
       "isActive": "true",
       "startDate": "2024-02-28",
@@ -420,6 +438,24 @@
         "Porfolio"
       ],
       "url": "https://porfolio-adrian-oliva.netlify.app/"
+    },
+    {
+      "name": "PerWorldWarpsPlus",
+      "isActive": "true",
+      "startDate": "2023-11-11",
+      "endDate": "2024-03-15",
+      "description": "Este es un plugin para servidores de Minecraft Paper, que permite a los jugadores crear y gestionar sus diferentes warps en distintos mundos, añadiendo una gui para poder ver los warps creados.",
+      "highlights": [
+        "Java",
+        "Kotlin",
+        "Minecraft",
+        "PaperMC",
+        "Spigot",
+        "Plugin",
+        "API",
+        "PerWorldWarpsPlus"
+      ],
+      "url": "https://github.com/AdrianOliva2/PerWorldWarpsPlus/releases/latest"
     },
     {
       "name": "PerWorldWarps",
