@@ -386,6 +386,24 @@
   ],
   "projects": [
     {
+      "name": "GlobalMultiEconomy",
+      "isActive": "true",
+      "startDate": "2024-04-20",
+      "endDate": "2024-04-24",
+      "description": "Este es un plugin para crear varias economías globales para que se compartan entre las diferentes modalidades de una network.",
+      "highlights": [
+        "Java",
+        "Kotlin",
+        "Minecraft",
+        "PaperMC",
+        "Spigot",
+        "Plugin",
+        "API",
+        "GlobalMultiEconomy"
+      ],
+      "url": "https://github.com/AdrianOliva2/GlobalMultiEconomy/releases/latest"
+    },
+    {
       "name": "PerWorldChatReborn",
       "isActive": "true",
       "startDate": "2024-03-14",
