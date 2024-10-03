@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Adrián Oliva Del Río",
-    "label": "Desarrollador Full Stack y de aplicaciones multiplataforma con 3 meses de experiencia",
+    "label": "Desarrollador Full Stack y de aplicaciones multiplataforma con 5 meses de experiencia",
     "image": "/me.webp",
     "email": "adrian230902@hotmail.com",
     "phone": "+34 678345268",
     "url": "https://porfolio-adrian-oliva.netlify.app/",
-    "summary": "3 meses de experiencia. Desarrollador Web y Aplicaciones Multiplataforma. De Cádiz, España.",
+    "summary": "5 meses de experiencia. Desarrollador Web y Aplicaciones Multiplataforma.",
     "location": {
       "address": "Calle Plaza Alta, B3 5ºA",
       "postalCode": "11300",
-      "city": "La Línea de la concepción",
+      "city": "La Línea de la concepción, Cádiz, Andalucía",
       "countryCode": "ES",
       "region": "España"
     },
@@ -28,6 +28,17 @@
     ]
   },
   "work": [
+    {
+      "name": "KnowMad Mood",
+      "position": "Desarrollador Frontend",
+      "url": "https://www.knowmadmood.com/",
+      "startDate": "2024-08-12",
+      "endDate": null,
+      "summary": "Desarrollo Web de AtresMedia. Utilizando lenguajes como: JavaScript, HTML, CSS, React.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
     {
       "name": "ControlNet Telco Solutions",
       "position": "Desarrollador Full Stack y Aplicaciones Multiplataforma",
@@ -385,6 +396,24 @@
     }
   ],
   "projects": [
+    {
+      "name": "StaffMode",
+      "isActive": "true",
+      "startDate": "2024-08-22",
+      "endDate": "2024-08-29",
+      "description": "Plugin Modo staff Para servidores y networks de Minecraft.",
+      "highlights": [
+        "Java",
+        "Kotlin",
+        "Minecraft",
+        "PaperMC",
+        "Spigot",
+        "Plugin",
+        "API",
+        "StaffMode"
+      ],
+      "url": ""
+    },
     {
       "name": "GlobalMultiEconomy",
       "isActive": "true",
