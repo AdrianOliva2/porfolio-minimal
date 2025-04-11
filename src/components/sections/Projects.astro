@@ -1,10 +1,10 @@
 ---
-import Section from "@/components/Section.astro";
+import Section from '@/components/Section.astro'
 
-import { projects } from "@cv";
+import { projects } from '@cv'
 ---
 
-<Section title="Proyectos">
+<Section title='Proyectos'>
   <ul>
     {
       projects.map(({ name, description, highlights, url, isActive }) => (
@@ -15,8 +15,8 @@ import { projects } from "@cv";
                 {url ? (
                   <a
                     href={url}
-                    target="_blank"
-                    rel="noopener norreferer"
+                    target='_blank'
+                    rel='noopener norreferer'
                     title={`Ver el proyecto ${name}`}
                   >
                     {name}
@@ -24,7 +24,7 @@ import { projects } from "@cv";
                 ) : (
                   <span>{name}</span>
                 )}
-                {isActive && <span class="active">•</span>}
+                {<span class={isActive ? 'active' : 'inactive'}>•</span>}
               </h3>
               <p>{description}</p>
             </header>
@@ -84,7 +84,11 @@ import { projects } from "@cv";
   }
 
   article h3 span.active {
-    color: #00ab06;
+    color: #06ab06;
+  }
+
+  article h3 span.inactive {
+    color: #ab0606;
   }
 
   footer {
@@ -103,7 +107,7 @@ import { projects } from "@cv";
     padding: 0.2rem 0.6rem;
     display: inline-flex;
   }
-  
+
   @media print {
     article a:hover {
       text-decoration: none;
