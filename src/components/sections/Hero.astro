@@ -1,52 +1,51 @@
 ---
-import { basics } from "@cv";
-import Section from "@/components/Section.astro";
-import WorldMap from "@/icons/WorldMap.astro";
-import Mail from "@/icons/Mail.astro";
-import Phone from "@/icons/Phone.astro";
-import LinkedIn from "@/icons/LinkedIn.astro";
-import GitHub from "@/icons/GitHub.astro";
+import { basics } from '@cv'
+import Section from '@/components/Section.astro'
+import WorldMap from '@/icons/WorldMap.astro'
+import Mail from '@/icons/Mail.astro'
+import Phone from '@/icons/Phone.astro'
+import LinkedIn from '@/icons/LinkedIn.astro'
+import GitHub from '@/icons/GitHub.astro'
 
-const { name, label, image, location, profiles, phone, email, summary } =
-  basics;
-const { city, region } = location;
+const { name, label, image, location, profiles, phone, email } = basics
+const { city, region } = location
 
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
-  LinkedIn,
-};
+  LinkedIn
+}
 
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
-const linkedUrl = linkedInfo?.url;
+const linkedInfo = profiles.find(({ network }) => network === 'LinkedIn')
+const linkedUrl = linkedInfo?.url
 
-const githubInfo = profiles.find(({ network }) => network === "GitHub");
-const githubUrl = githubInfo?.url;
+const githubInfo = profiles.find(({ network }) => network === 'GitHub')
+const githubUrl = githubInfo?.url
 
 const printInfo = [email, phone, linkedUrl, githubUrl]
   .filter(Boolean)
-  .join(" • ");
+  .join(' • ')
 ---
 
 <Section>
-  <div class="container">
-    <div class="info">
+  <div class='container'>
+    <div class='info'>
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span>
         <WorldMap />
         {city}, {region}
       </span>
-      <footer class="print">
+      <footer class='print'>
         {printInfo}
       </footer>
-      <footer class="no-print">
+      <footer class='no-print'>
         {
           email && (
             <a
               href={`mailto:${email}`}
               title={`Enviar correo electrónico a ${name} al correo ${email}`}
-              target="_blank"
-              rel="noopener noreferrer"
+              target='_blank'
+              rel='noopener noreferrer'
             >
               <Mail />
             </a>
@@ -57,8 +56,8 @@ const printInfo = [email, phone, linkedUrl, githubUrl]
             <a
               href={`tel:${phone}`}
               title={`Llamar por teléfono a ${name} al número ${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
+              target='_blank'
+              rel='noopener noreferrer'
             >
               <Phone />
             </a>
@@ -66,17 +65,17 @@ const printInfo = [email, phone, linkedUrl, githubUrl]
         }
         {
           profiles.map(({ network, url, username }) => {
-            const Icon = SOCIAL_ICONS[network];
+            const Icon = SOCIAL_ICONS[network]
             return (
               <a
                 href={url}
                 title={`Visitar el perfil de ${name} en ${network}`}
-                target="_blank"
-                rel="noopener noreferrer"
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Icon />
               </a>
-            );
+            )
           })
         }
       </footer>
