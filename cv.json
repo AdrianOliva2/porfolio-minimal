@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Adrián Oliva Del Río",
-    "label": "Desarrollador Full Stack y de aplicaciones multiplataforma con 5 meses de experiencia",
+    "label": "Desarrollador Full Stack y de aplicaciones multiplataforma con 11 meses de experiencia",
     "image": "/me.webp",
     "email": "adrian230902@hotmail.com",
     "phone": "+34 678345268",
     "url": "https://porfolio-adrian-oliva.netlify.app/",
-    "summary": "5 meses de experiencia. Desarrollador Web y Aplicaciones Multiplataforma.",
+    "summary": "11 meses de experiencia. Desarrollador Web y Aplicaciones Multiplataforma.",
     "location": {
       "address": "Calle Plaza Alta, B3 5ºA",
       "postalCode": "11300",
@@ -34,7 +34,7 @@
       "url": "https://www.knowmadmood.com/",
       "startDate": "2024-08-12",
       "endDate": null,
-      "summary": "Desarrollo Web de AtresMedia. Utilizando lenguajes como: JavaScript, HTML, CSS, React.",
+      "summary": "Desarrollo Web de Atresplayer. Utilizando lenguajes como: JavaScript, HTML, CSS, React.",
       "highlights": [
         "Started the company"
       ]
@@ -398,7 +398,7 @@
   "projects": [
     {
       "name": "StaffMode",
-      "isActive": "true",
+      "isActive": true,
       "startDate": "2024-08-22",
       "endDate": "2024-08-29",
       "description": "Plugin Modo staff Para servidores y networks de Minecraft.",
@@ -416,7 +416,7 @@
     },
     {
       "name": "GlobalMultiEconomy",
-      "isActive": "true",
+      "isActive": true,
       "startDate": "2024-04-20",
       "endDate": "2024-04-24",
       "description": "Este es un plugin para crear varias economías globales para que se compartan entre las diferentes modalidades de una network.",
@@ -434,7 +434,7 @@
     },
     {
       "name": "PerWorldChatReborn",
-      "isActive": "true",
+      "isActive": true,
       "startDate": "2024-03-14",
       "endDate": "2024-03-15",
       "description": "Este es un plugin para servidores de Minecraft Paper, que permite tener diferentes chats a los usuarios separados por mundos.",
@@ -452,7 +452,7 @@
     },
     {
       "name": "Porfolio-Adrian-Minimal",
-      "isActive": "true",
+      "isActive": true,
       "startDate": "2024-02-28",
       "endDate": "2024-02-29",
       "description": "Este es mi porfolio personal simple creado usando el framework Astro, junto con HTML, CSS, JavaScript, JSON, y JSX.",
@@ -470,7 +470,7 @@
     },
     {
       "name": "Porfolio-Adrian",
-      "isActive": "true",
+      "isActive": true,
       "startDate": "2024-02-24",
       "endDate": "2024-02-26",
       "description": "Este es mi porfolio personal creado usando el framework Astro y TailwindCSS, junto con HTML, CSS, JavaScript, y JSX.",
@@ -488,7 +488,7 @@
     },
     {
       "name": "PerWorldWarpsPlus",
-      "isActive": "true",
+      "isActive": true,
       "startDate": "2023-11-11",
       "endDate": "2024-03-15",
       "description": "Este es un plugin para servidores de Minecraft Paper, que permite a los jugadores crear y gestionar sus diferentes warps en distintos mundos, añadiendo una gui para poder ver los warps creados.",
@@ -506,7 +506,7 @@
     },
     {
       "name": "PerWorldWarps",
-      "isActive": "true",
+      "isActive": true,
       "startDate": "2023-11-01",
       "endDate": "2023-11-11",
       "description": "Este es un plugin para servidores de Minecraft Paper, que permite a los jugadores crear y gestionar sus diferentes warps en distintos mundos.",
@@ -524,7 +524,7 @@
     },
     {
       "name": "Curso de React",
-      "isActive": "true",
+      "isActive": true,
       "startDate": "2023-11-29",
       "endDate": "2024-03-06",
       "description": "Este es un curso de React que he hecho para aprender React y están todos los proyectos de react que he hecho en este mismo repositorio.",
