@@ -1,10 +1,10 @@
 ---
-import Section from "@/components/Section.astro";
+import Section from '@/components/Section.astro'
 
-import { education } from "@cv";
+import { education } from '@cv'
 ---
 
-<Section title="Educacion">
+<Section title='Educacion'>
   <ul>
     {
       education.map(
@@ -16,37 +16,37 @@ import { education } from "@cv";
           startDate,
           endDate,
           score,
-          courses,
+          courses
         }) => {
           const months = [
-            "Enero",
-            "Febrero",
-            "Marzo",
-            "Abril",
-            "Mayo",
-            "Junio",
-            "Julio",
-            "Agosto",
-            "Septiembre",
-            "Octubre",
-            "Noviembre",
-            "Diciembre",
-          ];
-          const startDateObj = new Date(startDate);
-          const startYear = startDateObj.getFullYear();
-          const startMonth = startDateObj.getMonth();
-          const endDateObj = endDate ? new Date(endDate) : null;
-          const endYear = endDateObj ? endDateObj.getFullYear() : "Actualmente";
-          const endMonth = endDateObj ? endDateObj.getMonth() : "";
-          const period = `${months[startMonth]} ${startYear} - ${endMonth ? months[endMonth] : ""} ${endYear}`;
-          const description = `${studyType} de ${area} con un promedio de ${score}`;
+            'Enero',
+            'Febrero',
+            'Marzo',
+            'Abril',
+            'Mayo',
+            'Junio',
+            'Julio',
+            'Agosto',
+            'Septiembre',
+            'Octubre',
+            'Noviembre',
+            'Diciembre'
+          ]
+          const startDateObj = new Date(startDate)
+          const startYear = startDateObj.getFullYear()
+          const startMonth = startDateObj.getMonth()
+          const endDateObj = endDate ? new Date(endDate) : null
+          const endYear = endDateObj ? endDateObj.getFullYear() : 'Actualmente'
+          const endMonth = endDateObj ? endDateObj.getMonth() : ''
+          const period = `${months[startMonth]} ${startYear} - ${endMonth ? months[endMonth] : ''} ${endYear}`
+          const description = `${studyType} de ${area} con un promedio de ${score}`
 
           return (
             <li>
               <article>
                 <header>
                   <div>
-                    <a href={url} target="_blank" rel="noopener norreferer">
+                    <a href={url} target='_blank' rel='noopener norreferer'>
                       <h3>{institution}</h3>
                     </a>
                     <h4>{description}</h4>
@@ -56,12 +56,12 @@ import { education } from "@cv";
                 </header>
                 <footer>
                   {courses.map((course) => (
-                      <span>{course}</span>
+                    <span>{course}</span>
                   ))}
                 </footer>
               </article>
             </li>
-          );
+          )
         }
       )
     }

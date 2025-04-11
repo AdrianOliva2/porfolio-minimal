@@ -1,54 +1,54 @@
 ---
-import Section from "@/components/Section.astro";
+import Section from '@/components/Section.astro'
 
-import { work } from "@cv";
+import { work } from '@cv'
 ---
 
-<Section title="Experiencia laboral">
+<Section title='Experiencia laboral'>
   <ul>
     {
-      work.map(
-        ({ name, startDate, endDate, position, summary, url }) => {
-          const months = [
-            "Enero",
-            "Febrero",
-            "Marzo",
-            "Abril",
-            "Mayo",
-            "Junio",
-            "Julio",
-            "Agosto",
-            "Septiembre",
-            "Octubre",
-            "Noviembre",
-            "Diciembre",
-          ];
-          const startDateObj = new Date(startDate);
-          const startYear = startDateObj.getFullYear();
-          const startMonth = startDateObj.getMonth();
-          const endDateObj = endDate ? new Date(endDate) : null;
-          const endYear = endDateObj ? endDateObj.getFullYear() : "Actualmente";
-          const endMonth = endDateObj ? endDateObj.getMonth() : "";
-          const period = `${months[startMonth]} ${startYear} - ${endMonth ? months[endMonth] : ""} ${endYear}`;
-          return (
-            <li>
-              <article>
-                <header>
-                  <div>
-                    <a href={url} target="_blank" rel="noopener norreferer"><h3>{name}</h3></a>
-                    <h4>{position}</h4>
-                  </div>
+      work.map(({ name, startDate, endDate, position, summary, url }) => {
+        const months = [
+          'Enero',
+          'Febrero',
+          'Marzo',
+          'Abril',
+          'Mayo',
+          'Junio',
+          'Julio',
+          'Agosto',
+          'Septiembre',
+          'Octubre',
+          'Noviembre',
+          'Diciembre'
+        ]
+        const startDateObj = new Date(startDate)
+        const startYear = startDateObj.getFullYear()
+        const startMonth = startDateObj.getMonth()
+        const endDateObj = endDate ? new Date(endDate) : null
+        const endYear = endDateObj ? endDateObj.getFullYear() : 'Actualmente'
+        const endMonth = endDateObj ? endDateObj.getMonth() : ''
+        const period = `${months[startMonth]} ${startYear} - ${endMonth ? months[endMonth] : ''} ${endYear}`
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <a href={url} target='_blank' rel='noopener norreferer'>
+                    <h3>{name}</h3>
+                  </a>
+                  <h4>{position}</h4>
+                </div>
 
-                  <time>{period}</time>
-                </header>
-                <footer>
-                  <p>{summary}</p>
-                </footer>
-              </article>
-            </li>
-          );
-        }
-      )
+                <time>{period}</time>
+              </header>
+              <footer>
+                <p>{summary}</p>
+              </footer>
+            </article>
+          </li>
+        )
+      })
     }
   </ul>
 </Section>
